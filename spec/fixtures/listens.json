@@ -1,0 +1,2051 @@
+{
+  "items": [
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0Kekt6CKSo0m5mivKcoH51"
+              },
+              "href": "https://api.spotify.com/v1/artists/0Kekt6CKSo0m5mivKcoH51",
+              "id": "0Kekt6CKSo0m5mivKcoH51",
+              "name": "Sergei Rachmaninoff",
+              "type": "artist",
+              "uri": "spotify:artist:0Kekt6CKSo0m5mivKcoH51"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2ErsNxbhSXaFAXAC9K01ln"
+              },
+              "href": "https://api.spotify.com/v1/artists/2ErsNxbhSXaFAXAC9K01ln",
+              "id": "2ErsNxbhSXaFAXAC9K01ln",
+              "name": "Enguerrand-Friedrich Lühl-Dolgorukiy",
+              "type": "artist",
+              "uri": "spotify:artist:2ErsNxbhSXaFAXAC9K01ln"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/694ENRMUUT4assrNX31GxI"
+          },
+          "href": "https://api.spotify.com/v1/albums/694ENRMUUT4assrNX31GxI",
+          "id": "694ENRMUUT4assrNX31GxI",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273a3c9f4bbcd6e14a3351d215f",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02a3c9f4bbcd6e14a3351d215f",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851a3c9f4bbcd6e14a3351d215f",
+              "width": 64
+            }
+          ],
+          "name": "Rachmaninoff: Œuvres pour piano",
+          "release_date": "2009-01-12",
+          "release_date_precision": "day",
+          "total_tracks": 17,
+          "type": "album",
+          "uri": "spotify:album:694ENRMUUT4assrNX31GxI"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0Kekt6CKSo0m5mivKcoH51"
+            },
+            "href": "https://api.spotify.com/v1/artists/0Kekt6CKSo0m5mivKcoH51",
+            "id": "0Kekt6CKSo0m5mivKcoH51",
+            "name": "Sergei Rachmaninoff",
+            "type": "artist",
+            "uri": "spotify:artist:0Kekt6CKSo0m5mivKcoH51"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2ErsNxbhSXaFAXAC9K01ln"
+            },
+            "href": "https://api.spotify.com/v1/artists/2ErsNxbhSXaFAXAC9K01ln",
+            "id": "2ErsNxbhSXaFAXAC9K01ln",
+            "name": "Enguerrand-Friedrich Lühl-Dolgorukiy",
+            "type": "artist",
+            "uri": "spotify:artist:2ErsNxbhSXaFAXAC9K01ln"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 191133,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "FR1Q41010045"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2cl1fu5vs66EmJWp3yyVKT"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2cl1fu5vs66EmJWp3yyVKT",
+        "id": "2cl1fu5vs66EmJWp3yyVKT",
+        "is_local": false,
+        "name": "Moment Musical, Op. 16 No. 4",
+        "popularity": 30,
+        "preview_url": "https://p.scdn.co/mp3-preview/edb7df5601b68c55985a59103a289f6f3f1ae9d4?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:2cl1fu5vs66EmJWp3yyVKT"
+      },
+      "played_at": "2022-04-28T18:44:02.914Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5EfeuEtilmCk8J49T35rqb"
+              },
+              "href": "https://api.spotify.com/v1/artists/5EfeuEtilmCk8J49T35rqb",
+              "id": "5EfeuEtilmCk8J49T35rqb",
+              "name": "Vadim Chaimovich",
+              "type": "artist",
+              "uri": "spotify:artist:5EfeuEtilmCk8J49T35rqb"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0P1COfMrtNCZ5rHuU5DZyd"
+          },
+          "href": "https://api.spotify.com/v1/albums/0P1COfMrtNCZ5rHuU5DZyd",
+          "id": "0P1COfMrtNCZ5rHuU5DZyd",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27356ae281e2a66de6aa43ec394",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0256ae281e2a66de6aa43ec394",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485156ae281e2a66de6aa43ec394",
+              "width": 64
+            }
+          ],
+          "name": "Miniatures",
+          "release_date": "2020-02-21",
+          "release_date_precision": "day",
+          "total_tracks": 29,
+          "type": "album",
+          "uri": "spotify:album:0P1COfMrtNCZ5rHuU5DZyd"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3nZz7VEfRpAkvQUEJRbXsn"
+            },
+            "href": "https://api.spotify.com/v1/artists/3nZz7VEfRpAkvQUEJRbXsn",
+            "id": "3nZz7VEfRpAkvQUEJRbXsn",
+            "name": "Balys Dvarionas",
+            "type": "artist",
+            "uri": "spotify:artist:3nZz7VEfRpAkvQUEJRbXsn"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5EfeuEtilmCk8J49T35rqb"
+            },
+            "href": "https://api.spotify.com/v1/artists/5EfeuEtilmCk8J49T35rqb",
+            "id": "5EfeuEtilmCk8J49T35rqb",
+            "name": "Vadim Chaimovich",
+            "type": "artist",
+            "uri": "spotify:artist:5EfeuEtilmCk8J49T35rqb"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 70500,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "ITD542000039"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5nVRbG9QmLP6z8HrRgds6f"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5nVRbG9QmLP6z8HrRgds6f",
+        "id": "5nVRbG9QmLP6z8HrRgds6f",
+        "is_local": false,
+        "name": "Little Suite for Piano: IV. Waltz in G minor",
+        "popularity": 24,
+        "preview_url": "https://p.scdn.co/mp3-preview/cd8db1072d3c7582cea47e4fe4dd26cb8d2db207?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:5nVRbG9QmLP6z8HrRgds6f"
+      },
+      "played_at": "2022-04-28T18:42:15.679Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2p0UyoPfYfI76PCStuXfOP"
+              },
+              "href": "https://api.spotify.com/v1/artists/2p0UyoPfYfI76PCStuXfOP",
+              "id": "2p0UyoPfYfI76PCStuXfOP",
+              "name": "Franz Schubert",
+              "type": "artist",
+              "uri": "spotify:artist:2p0UyoPfYfI76PCStuXfOP"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6dwGTX3FUsR0eQvjddJjX7"
+              },
+              "href": "https://api.spotify.com/v1/artists/6dwGTX3FUsR0eQvjddJjX7",
+              "id": "6dwGTX3FUsR0eQvjddJjX7",
+              "name": "Mathieu Gaudet",
+              "type": "artist",
+              "uri": "spotify:artist:6dwGTX3FUsR0eQvjddJjX7"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/3rQrmJ99ZedKHKhV9SiFxU"
+          },
+          "href": "https://api.spotify.com/v1/albums/3rQrmJ99ZedKHKhV9SiFxU",
+          "id": "3rQrmJ99ZedKHKhV9SiFxU",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27338c65e3d67659a5fd426c914",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0238c65e3d67659a5fd426c914",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485138c65e3d67659a5fd426c914",
+              "width": 64
+            }
+          ],
+          "name": "Schubert: The Complete Sonatas and Major Piano Works, Vol. 5 – Warmth",
+          "release_date": "2021-10-22",
+          "release_date_precision": "day",
+          "total_tracks": 12,
+          "type": "album",
+          "uri": "spotify:album:3rQrmJ99ZedKHKhV9SiFxU"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2p0UyoPfYfI76PCStuXfOP"
+            },
+            "href": "https://api.spotify.com/v1/artists/2p0UyoPfYfI76PCStuXfOP",
+            "id": "2p0UyoPfYfI76PCStuXfOP",
+            "name": "Franz Schubert",
+            "type": "artist",
+            "uri": "spotify:artist:2p0UyoPfYfI76PCStuXfOP"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6dwGTX3FUsR0eQvjddJjX7"
+            },
+            "href": "https://api.spotify.com/v1/artists/6dwGTX3FUsR0eQvjddJjX7",
+            "id": "6dwGTX3FUsR0eQvjddJjX7",
+            "name": "Mathieu Gaudet",
+            "type": "artist",
+            "uri": "spotify:artist:6dwGTX3FUsR0eQvjddJjX7"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 68360,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "CALC42021244"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1mwJioreUaPdmZTrEJHD7b"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1mwJioreUaPdmZTrEJHD7b",
+        "id": "1mwJioreUaPdmZTrEJHD7b",
+        "is_local": false,
+        "name": "Four Dances: I. Waltz in A-flat Major, D. 978",
+        "popularity": 26,
+        "preview_url": "https://p.scdn.co/mp3-preview/47b0954c6e694380734f0cd4ac35d75acdee3ff2?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:1mwJioreUaPdmZTrEJHD7b"
+      },
+      "played_at": "2022-04-28T18:41:04.669Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6NI4nSe6Stnryh7IypLacX"
+            },
+            "href": "https://api.spotify.com/v1/artists/6NI4nSe6Stnryh7IypLacX",
+            "id": "6NI4nSe6Stnryh7IypLacX",
+            "name": "Friedrich Hollaender",
+            "type": "artist",
+            "uri": "spotify:artist:6NI4nSe6Stnryh7IypLacX"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1YuknfkSYTTbolRpwZBOv4"
+            },
+            "href": "https://api.spotify.com/v1/artists/1YuknfkSYTTbolRpwZBOv4",
+            "id": "1YuknfkSYTTbolRpwZBOv4",
+            "name": "George Gershwin",
+            "type": "artist",
+            "uri": "spotify:artist:1YuknfkSYTTbolRpwZBOv4"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4IbAZwt75dpehMOgcC3GnP"
+            },
+            "href": "https://api.spotify.com/v1/artists/4IbAZwt75dpehMOgcC3GnP",
+            "id": "4IbAZwt75dpehMOgcC3GnP",
+            "name": "Richard Rodgers",
+            "type": "artist",
+            "uri": "spotify:artist:4IbAZwt75dpehMOgcC3GnP"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6Yd6jR0AcWlI8JjJ954IDV"
+            },
+            "href": "https://api.spotify.com/v1/artists/6Yd6jR0AcWlI8JjJ954IDV",
+            "id": "6Yd6jR0AcWlI8JjJ954IDV",
+            "name": "Ira Gershwin",
+            "type": "artist",
+            "uri": "spotify:artist:6Yd6jR0AcWlI8JjJ954IDV"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 379426,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500571"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1QkmZvd4U60OYfL5PjA4TR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1QkmZvd4U60OYfL5PjA4TR",
+        "id": "1QkmZvd4U60OYfL5PjA4TR",
+        "is_local": false,
+        "name": "Jazzmedley",
+        "popularity": 18,
+        "preview_url": "https://p.scdn.co/mp3-preview/83d19d2832c166aa37f7d367505fc4f4bc3c838d?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 16,
+        "type": "track",
+        "uri": "spotify:track:1QkmZvd4U60OYfL5PjA4TR"
+      },
+      "played_at": "2022-04-28T18:39:55.477Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3kb5fJZ2Hktci2A1wHXnHP"
+              },
+              "href": "https://api.spotify.com/v1/artists/3kb5fJZ2Hktci2A1wHXnHP",
+              "id": "3kb5fJZ2Hktci2A1wHXnHP",
+              "name": "Friedrich Nietzsche",
+              "type": "artist",
+              "uri": "spotify:artist:3kb5fJZ2Hktci2A1wHXnHP"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7mljXVf9xZyyhhuF6dKtix"
+              },
+              "href": "https://api.spotify.com/v1/artists/7mljXVf9xZyyhhuF6dKtix",
+              "id": "7mljXVf9xZyyhhuF6dKtix",
+              "name": "Lauretta Altman",
+              "type": "artist",
+              "uri": "spotify:artist:7mljXVf9xZyyhhuF6dKtix"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/72A1gC9xYF0tK3twnVYcMH"
+              },
+              "href": "https://api.spotify.com/v1/artists/72A1gC9xYF0tK3twnVYcMH",
+              "id": "72A1gC9xYF0tK3twnVYcMH",
+              "name": "Peter Schubert",
+              "type": "artist",
+              "uri": "spotify:artist:72A1gC9xYF0tK3twnVYcMH"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/16Aq8FYMrD1kGzso2a2qe5"
+          },
+          "href": "https://api.spotify.com/v1/albums/16Aq8FYMrD1kGzso2a2qe5",
+          "id": "16Aq8FYMrD1kGzso2a2qe5",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273b9074512db34cd4b739250af",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02b9074512db34cd4b739250af",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851b9074512db34cd4b739250af",
+              "width": 64
+            }
+          ],
+          "name": "Compositions, Vol. 1",
+          "release_date": "1996-01-01",
+          "release_date_precision": "day",
+          "total_tracks": 25,
+          "type": "album",
+          "uri": "spotify:album:16Aq8FYMrD1kGzso2a2qe5"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3kb5fJZ2Hktci2A1wHXnHP"
+            },
+            "href": "https://api.spotify.com/v1/artists/3kb5fJZ2Hktci2A1wHXnHP",
+            "id": "3kb5fJZ2Hktci2A1wHXnHP",
+            "name": "Friedrich Nietzsche",
+            "type": "artist",
+            "uri": "spotify:artist:3kb5fJZ2Hktci2A1wHXnHP"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7mljXVf9xZyyhhuF6dKtix"
+            },
+            "href": "https://api.spotify.com/v1/artists/7mljXVf9xZyyhhuF6dKtix",
+            "id": "7mljXVf9xZyyhhuF6dKtix",
+            "name": "Lauretta Altman",
+            "type": "artist",
+            "uri": "spotify:artist:7mljXVf9xZyyhhuF6dKtix"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/72A1gC9xYF0tK3twnVYcMH"
+            },
+            "href": "https://api.spotify.com/v1/artists/72A1gC9xYF0tK3twnVYcMH",
+            "id": "72A1gC9xYF0tK3twnVYcMH",
+            "name": "Peter Schubert",
+            "type": "artist",
+            "uri": "spotify:artist:72A1gC9xYF0tK3twnVYcMH"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 100866,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USAB10618559"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4jB0N4fZzvrQ0kn4CmpUvA"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4jB0N4fZzvrQ0kn4CmpUvA",
+        "id": "4jB0N4fZzvrQ0kn4CmpUvA",
+        "is_local": false,
+        "name": "Einleitung",
+        "popularity": 21,
+        "preview_url": "https://p.scdn.co/mp3-preview/47cd1ec1cdacd0c24b65793a06718ee496b5fc62?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4jB0N4fZzvrQ0kn4CmpUvA"
+      },
+      "played_at": "2022-04-28T18:33:36.098Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7y97mc3bZRFXzT2szRM4L4"
+              },
+              "href": "https://api.spotify.com/v1/artists/7y97mc3bZRFXzT2szRM4L4",
+              "id": "7y97mc3bZRFXzT2szRM4L4",
+              "name": "Frédéric Chopin",
+              "type": "artist",
+              "uri": "spotify:artist:7y97mc3bZRFXzT2szRM4L4"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2T3nLB2fOmHzoN8nDKbHWl"
+          },
+          "href": "https://api.spotify.com/v1/albums/2T3nLB2fOmHzoN8nDKbHWl",
+          "id": "2T3nLB2fOmHzoN8nDKbHWl",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27360ad7ccab3a4e24b2343c33b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0260ad7ccab3a4e24b2343c33b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485160ad7ccab3a4e24b2343c33b",
+              "width": 64
+            }
+          ],
+          "name": "Chopin: Waltzes (Complete)",
+          "release_date": "1992-06-10",
+          "release_date_precision": "day",
+          "total_tracks": 24,
+          "type": "album",
+          "uri": "spotify:album:2T3nLB2fOmHzoN8nDKbHWl"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7y97mc3bZRFXzT2szRM4L4"
+            },
+            "href": "https://api.spotify.com/v1/artists/7y97mc3bZRFXzT2szRM4L4",
+            "id": "7y97mc3bZRFXzT2szRM4L4",
+            "name": "Frédéric Chopin",
+            "type": "artist",
+            "uri": "spotify:artist:7y97mc3bZRFXzT2szRM4L4"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5SBOWUBQdfga0xprPVBxOr"
+            },
+            "href": "https://api.spotify.com/v1/artists/5SBOWUBQdfga0xprPVBxOr",
+            "id": "5SBOWUBQdfga0xprPVBxOr",
+            "name": "Idil Biret",
+            "type": "artist",
+            "uri": "spotify:artist:5SBOWUBQdfga0xprPVBxOr"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 238906,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI199234710"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7lAOLNDVHWwvBohU5frfG7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7lAOLNDVHWwvBohU5frfG7",
+        "id": "7lAOLNDVHWwvBohU5frfG7",
+        "is_local": false,
+        "name": "Waltz No. 10 in B Minor, Op. 69, No. 2",
+        "popularity": 43,
+        "preview_url": "https://p.scdn.co/mp3-preview/ace98b7c18e74b9dc49fd6613d0b83a1c498e9f9?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:7lAOLNDVHWwvBohU5frfG7"
+      },
+      "played_at": "2022-04-28T18:31:54.799Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2XKXuLdjmigGQx286z07ZZ"
+              },
+              "href": "https://api.spotify.com/v1/artists/2XKXuLdjmigGQx286z07ZZ",
+              "id": "2XKXuLdjmigGQx286z07ZZ",
+              "name": "Lazar Berman",
+              "type": "artist",
+              "uri": "spotify:artist:2XKXuLdjmigGQx286z07ZZ"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/74Q0uOTdCZMZ07P5Im7582"
+          },
+          "href": "https://api.spotify.com/v1/albums/74Q0uOTdCZMZ07P5Im7582",
+          "id": "74Q0uOTdCZMZ07P5Im7582",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273485667bd4f390e703fafba40",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02485667bd4f390e703fafba40",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851485667bd4f390e703fafba40",
+              "width": 64
+            }
+          ],
+          "name": "Inedito (Unpublished)",
+          "release_date": "2010-12-21",
+          "release_date_precision": "day",
+          "total_tracks": 35,
+          "type": "album",
+          "uri": "spotify:album:74Q0uOTdCZMZ07P5Im7582"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2XKXuLdjmigGQx286z07ZZ"
+            },
+            "href": "https://api.spotify.com/v1/artists/2XKXuLdjmigGQx286z07ZZ",
+            "id": "2XKXuLdjmigGQx286z07ZZ",
+            "name": "Lazar Berman",
+            "type": "artist",
+            "uri": "spotify:artist:2XKXuLdjmigGQx286z07ZZ"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 63840,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEBL60973652"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4NSH5KlrNzdH9OBtgsBFpL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4NSH5KlrNzdH9OBtgsBFpL",
+        "id": "4NSH5KlrNzdH9OBtgsBFpL",
+        "is_local": false,
+        "name": "Chaconne in sol maggiore : Variazione 9",
+        "popularity": 37,
+        "preview_url": "https://p.scdn.co/mp3-preview/4835a5f92121c6ff4fb630b7f1ba48eb17ff01c5?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:4NSH5KlrNzdH9OBtgsBFpL"
+      },
+      "played_at": "2022-04-28T18:24:49.846Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2UqjDAXnDxejEyE0CzfUrZ"
+              },
+              "href": "https://api.spotify.com/v1/artists/2UqjDAXnDxejEyE0CzfUrZ",
+              "id": "2UqjDAXnDxejEyE0CzfUrZ",
+              "name": "Robert Schumann",
+              "type": "artist",
+              "uri": "spotify:artist:2UqjDAXnDxejEyE0CzfUrZ"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6Dvp66CbQo9OoDkABbiLaJ"
+              },
+              "href": "https://api.spotify.com/v1/artists/6Dvp66CbQo9OoDkABbiLaJ",
+              "id": "6Dvp66CbQo9OoDkABbiLaJ",
+              "name": "Luca Ballerini",
+              "type": "artist",
+              "uri": "spotify:artist:6Dvp66CbQo9OoDkABbiLaJ"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7GRsuquGYndx3FVsxAk9Z5"
+          },
+          "href": "https://api.spotify.com/v1/albums/7GRsuquGYndx3FVsxAk9Z5",
+          "id": "7GRsuquGYndx3FVsxAk9Z5",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27399f77f01d492c35ea88f917e",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0299f77f01d492c35ea88f917e",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485199f77f01d492c35ea88f917e",
+              "width": 64
+            }
+          ],
+          "name": "Schumann: Concert sans Orchestre Op.14 (Manuscript Version 1836), Carnaval Op. 9",
+          "release_date": "2022-02-25",
+          "release_date_precision": "day",
+          "total_tracks": 26,
+          "type": "album",
+          "uri": "spotify:album:7GRsuquGYndx3FVsxAk9Z5"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2UqjDAXnDxejEyE0CzfUrZ"
+            },
+            "href": "https://api.spotify.com/v1/artists/2UqjDAXnDxejEyE0CzfUrZ",
+            "id": "2UqjDAXnDxejEyE0CzfUrZ",
+            "name": "Robert Schumann",
+            "type": "artist",
+            "uri": "spotify:artist:2UqjDAXnDxejEyE0CzfUrZ"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6Dvp66CbQo9OoDkABbiLaJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/6Dvp66CbQo9OoDkABbiLaJ",
+            "id": "6Dvp66CbQo9OoDkABbiLaJ",
+            "name": "Luca Ballerini",
+            "type": "artist",
+            "uri": "spotify:artist:6Dvp66CbQo9OoDkABbiLaJ"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 113427,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "ITLF52107918"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0wdHoFaM3BHqEvyRMODxKX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0wdHoFaM3BHqEvyRMODxKX",
+        "id": "0wdHoFaM3BHqEvyRMODxKX",
+        "is_local": false,
+        "name": "Carnaval, Op. 9 \"Scènes mignonnes sur quatre notes\": No. 11 in C Minor, Chiarina - Passionato",
+        "popularity": 25,
+        "preview_url": "https://p.scdn.co/mp3-preview/cf270d32800dba3e39becd12bba66bc4d14a76ba?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 16,
+        "type": "track",
+        "uri": "spotify:track:0wdHoFaM3BHqEvyRMODxKX"
+      },
+      "played_at": "2022-04-28T18:23:45.428Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 100160,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500568"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1LDaZsHDKx2iQgK81GBb4q"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1LDaZsHDKx2iQgK81GBb4q",
+        "id": "1LDaZsHDKx2iQgK81GBb4q",
+        "is_local": false,
+        "name": "Toccatina (3rd movement)",
+        "popularity": 4,
+        "preview_url": "https://p.scdn.co/mp3-preview/1aefae25cee6b4e54e55584bfdedd408c49c9dac?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:1LDaZsHDKx2iQgK81GBb4q"
+      },
+      "played_at": "2022-04-28T18:21:51.205Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5wTAi7QkpP6kp8a54lmTOq"
+              },
+              "href": "https://api.spotify.com/v1/artists/5wTAi7QkpP6kp8a54lmTOq",
+              "id": "5wTAi7QkpP6kp8a54lmTOq",
+              "name": "Johannes Brahms",
+              "type": "artist",
+              "uri": "spotify:artist:5wTAi7QkpP6kp8a54lmTOq"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5SBOWUBQdfga0xprPVBxOr"
+              },
+              "href": "https://api.spotify.com/v1/artists/5SBOWUBQdfga0xprPVBxOr",
+              "id": "5SBOWUBQdfga0xprPVBxOr",
+              "name": "Idil Biret",
+              "type": "artist",
+              "uri": "spotify:artist:5SBOWUBQdfga0xprPVBxOr"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/68eCLrmTo4kplm2mMASwW2"
+          },
+          "href": "https://api.spotify.com/v1/albums/68eCLrmTo4kplm2mMASwW2",
+          "id": "68eCLrmTo4kplm2mMASwW2",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2738965fca922f8a91e87fab640",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e028965fca922f8a91e87fab640",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048518965fca922f8a91e87fab640",
+              "width": 64
+            }
+          ],
+          "name": "Brahms: Waltzes / Cadenzas / Die Schone Magelone",
+          "release_date": "1995-12-31",
+          "release_date_precision": "day",
+          "total_tracks": 29,
+          "type": "album",
+          "uri": "spotify:album:68eCLrmTo4kplm2mMASwW2"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5wTAi7QkpP6kp8a54lmTOq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5wTAi7QkpP6kp8a54lmTOq",
+            "id": "5wTAi7QkpP6kp8a54lmTOq",
+            "name": "Johannes Brahms",
+            "type": "artist",
+            "uri": "spotify:artist:5wTAi7QkpP6kp8a54lmTOq"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5SBOWUBQdfga0xprPVBxOr"
+            },
+            "href": "https://api.spotify.com/v1/artists/5SBOWUBQdfga0xprPVBxOr",
+            "id": "5SBOWUBQdfga0xprPVBxOr",
+            "name": "Idil Biret",
+            "type": "artist",
+            "uri": "spotify:artist:5SBOWUBQdfga0xprPVBxOr"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 52200,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI199225707"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5eqhhghDRfP4hVqBTTxUv5"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5eqhhghDRfP4hVqBTTxUv5",
+        "id": "5eqhhghDRfP4hVqBTTxUv5",
+        "is_local": false,
+        "name": "16 Waltzes, Op. 39 (1867 version): No. 3 in G-Sharp Minor",
+        "popularity": 47,
+        "preview_url": "https://p.scdn.co/mp3-preview/76f2525730f57f178b55827e1b2f1a8a23d32e73?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:5eqhhghDRfP4hVqBTTxUv5"
+      },
+      "played_at": "2022-04-28T18:20:10.339Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3WLh1Qe8WgEBbb2QJWYYal"
+              },
+              "href": "https://api.spotify.com/v1/artists/3WLh1Qe8WgEBbb2QJWYYal",
+              "id": "3WLh1Qe8WgEBbb2QJWYYal",
+              "name": "Karol Szymanowski",
+              "type": "artist",
+              "uri": "spotify:artist:3WLh1Qe8WgEBbb2QJWYYal"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2PMbM22YPJ2jvqenwrY8qO"
+          },
+          "href": "https://api.spotify.com/v1/albums/2PMbM22YPJ2jvqenwrY8qO",
+          "id": "2PMbM22YPJ2jvqenwrY8qO",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273a684613e48e3e6890d8a9cfd",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02a684613e48e3e6890d8a9cfd",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851a684613e48e3e6890d8a9cfd",
+              "width": 64
+            }
+          ],
+          "name": "Szymanowski: Piano Works, Vol. 2",
+          "release_date": "1996-12-06",
+          "release_date_precision": "day",
+          "total_tracks": 26,
+          "type": "album",
+          "uri": "spotify:album:2PMbM22YPJ2jvqenwrY8qO"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3WLh1Qe8WgEBbb2QJWYYal"
+            },
+            "href": "https://api.spotify.com/v1/artists/3WLh1Qe8WgEBbb2QJWYYal",
+            "id": "3WLh1Qe8WgEBbb2QJWYYal",
+            "name": "Karol Szymanowski",
+            "type": "artist",
+            "uri": "spotify:artist:3WLh1Qe8WgEBbb2QJWYYal"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1OBvHJmcD6MzAWSIIErwPM"
+            },
+            "href": "https://api.spotify.com/v1/artists/1OBvHJmcD6MzAWSIIErwPM",
+            "id": "1OBvHJmcD6MzAWSIIErwPM",
+            "name": "Martin Roscoe",
+            "type": "artist",
+            "uri": "spotify:artist:1OBvHJmcD6MzAWSIIErwPM"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 76933,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI199600215"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3bcdLMrAxrfn5dxInjIdI2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3bcdLMrAxrfn5dxInjIdI2",
+        "id": "3bcdLMrAxrfn5dxInjIdI2",
+        "is_local": false,
+        "name": "Variations on a Polish Theme, Op. 10: No. 5 Andantino",
+        "popularity": 38,
+        "preview_url": "https://p.scdn.co/mp3-preview/fff4c727bbe4318d2e01df4cdc5d00136512fe86?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:3bcdLMrAxrfn5dxInjIdI2"
+      },
+      "played_at": "2022-04-28T18:19:18.118Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0g33P9zonyHhsIQJ1LUC8X"
+              },
+              "href": "https://api.spotify.com/v1/artists/0g33P9zonyHhsIQJ1LUC8X",
+              "id": "0g33P9zonyHhsIQJ1LUC8X",
+              "name": "Benjamin Frith",
+              "type": "artist",
+              "uri": "spotify:artist:0g33P9zonyHhsIQJ1LUC8X"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/5xgzLyodqgopAiAojvKxFX"
+          },
+          "href": "https://api.spotify.com/v1/albums/5xgzLyodqgopAiAojvKxFX",
+          "id": "5xgzLyodqgopAiAojvKxFX",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273fa5ef22718422c7e5e91ce19",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02fa5ef22718422c7e5e91ce19",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851fa5ef22718422c7e5e91ce19",
+              "width": 64
+            }
+          ],
+          "name": "FIELD: Piano Music, Vol. 2",
+          "release_date": "2000-06-03",
+          "release_date_precision": "day",
+          "total_tracks": 11,
+          "type": "album",
+          "uri": "spotify:album:5xgzLyodqgopAiAojvKxFX"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0g33P9zonyHhsIQJ1LUC8X"
+            },
+            "href": "https://api.spotify.com/v1/artists/0g33P9zonyHhsIQJ1LUC8X",
+            "id": "0g33P9zonyHhsIQJ1LUC8X",
+            "name": "Benjamin Frith",
+            "type": "artist",
+            "uri": "spotify:artist:0g33P9zonyHhsIQJ1LUC8X"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7vDYlejWEU6Yuw4MxTiv56"
+            },
+            "href": "https://api.spotify.com/v1/artists/7vDYlejWEU6Yuw4MxTiv56",
+            "id": "7vDYlejWEU6Yuw4MxTiv56",
+            "name": "John Field",
+            "type": "artist",
+            "uri": "spotify:artist:7vDYlejWEU6Yuw4MxTiv56"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 192400,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI199751701"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Q6Yl87BTK0wbGY7XGFZhx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Q6Yl87BTK0wbGY7XGFZhx",
+        "id": "5Q6Yl87BTK0wbGY7XGFZhx",
+        "is_local": false,
+        "name": "Nocturne No. 10 In E Minor",
+        "popularity": 53,
+        "preview_url": "https://p.scdn.co/mp3-preview/776c688e1e625a441a5d9db1d765754931ef85b1?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:5Q6Yl87BTK0wbGY7XGFZhx"
+      },
+      "played_at": "2022-04-28T18:18:00.172Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5zyNXVd952fWOjkdGHCvPd"
+              },
+              "href": "https://api.spotify.com/v1/artists/5zyNXVd952fWOjkdGHCvPd",
+              "id": "5zyNXVd952fWOjkdGHCvPd",
+              "name": "Béla Bartók",
+              "type": "artist",
+              "uri": "spotify:artist:5zyNXVd952fWOjkdGHCvPd"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6ozAtG2j28MyMYvSmNaQMA"
+              },
+              "href": "https://api.spotify.com/v1/artists/6ozAtG2j28MyMYvSmNaQMA",
+              "id": "6ozAtG2j28MyMYvSmNaQMA",
+              "name": "Fülöp Ránki",
+              "type": "artist",
+              "uri": "spotify:artist:6ozAtG2j28MyMYvSmNaQMA"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/0Qj0JIJC9H7DSTJgdrSMbp"
+          },
+          "href": "https://api.spotify.com/v1/albums/0Qj0JIJC9H7DSTJgdrSMbp",
+          "id": "0Qj0JIJC9H7DSTJgdrSMbp",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2739ba7f8d4d73c109135eb5341",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e029ba7f8d4d73c109135eb5341",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048519ba7f8d4d73c109135eb5341",
+              "width": 64
+            }
+          ],
+          "name": "Bartók: Piano Works",
+          "release_date": "2021-12-03",
+          "release_date_precision": "day",
+          "total_tracks": 18,
+          "type": "album",
+          "uri": "spotify:album:0Qj0JIJC9H7DSTJgdrSMbp"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5zyNXVd952fWOjkdGHCvPd"
+            },
+            "href": "https://api.spotify.com/v1/artists/5zyNXVd952fWOjkdGHCvPd",
+            "id": "5zyNXVd952fWOjkdGHCvPd",
+            "name": "Béla Bartók",
+            "type": "artist",
+            "uri": "spotify:artist:5zyNXVd952fWOjkdGHCvPd"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ozAtG2j28MyMYvSmNaQMA"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ozAtG2j28MyMYvSmNaQMA",
+            "id": "6ozAtG2j28MyMYvSmNaQMA",
+            "name": "Fülöp Ránki",
+            "type": "artist",
+            "uri": "spotify:artist:6ozAtG2j28MyMYvSmNaQMA"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 42146,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI192105508"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5ULNL6H8RAshZSQ0diLmcA"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5ULNL6H8RAshZSQ0diLmcA",
+        "id": "5ULNL6H8RAshZSQ0diLmcA",
+        "is_local": false,
+        "name": "For Children, Vol. 2, Sz. 42 (Excerpts) [Original Version]: No. 26, Dance with Me. Andante",
+        "popularity": 30,
+        "preview_url": "https://p.scdn.co/mp3-preview/5e010f1219e147fb8919b40923569e338204c451?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:5ULNL6H8RAshZSQ0diLmcA"
+      },
+      "played_at": "2022-04-28T18:14:48.025Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7KkUirCiJZhgRN3NbgG98L"
+              },
+              "href": "https://api.spotify.com/v1/artists/7KkUirCiJZhgRN3NbgG98L",
+              "id": "7KkUirCiJZhgRN3NbgG98L",
+              "name": "Ottorino Respighi",
+              "type": "artist",
+              "uri": "spotify:artist:7KkUirCiJZhgRN3NbgG98L"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2Nm7vx01wJA7fNH6askGry"
+          },
+          "href": "https://api.spotify.com/v1/albums/2Nm7vx01wJA7fNH6askGry",
+          "id": "2Nm7vx01wJA7fNH6askGry",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27304f52c52197ef5c5aa4a3094",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0204f52c52197ef5c5aa4a3094",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485104f52c52197ef5c5aa4a3094",
+              "width": 64
+            }
+          ],
+          "name": "Respighi: Piano Music",
+          "release_date": "1997-12-12",
+          "release_date_precision": "day",
+          "total_tracks": 20,
+          "type": "album",
+          "uri": "spotify:album:2Nm7vx01wJA7fNH6askGry"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7KkUirCiJZhgRN3NbgG98L"
+            },
+            "href": "https://api.spotify.com/v1/artists/7KkUirCiJZhgRN3NbgG98L",
+            "id": "7KkUirCiJZhgRN3NbgG98L",
+            "name": "Ottorino Respighi",
+            "type": "artist",
+            "uri": "spotify:artist:7KkUirCiJZhgRN3NbgG98L"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6f4LXqcGifD364sFBKFfoN"
+            },
+            "href": "https://api.spotify.com/v1/artists/6f4LXqcGifD364sFBKFfoN",
+            "id": "6f4LXqcGifD364sFBKFfoN",
+            "name": "Konstantin Scherbakov",
+            "type": "artist",
+            "uri": "spotify:artist:6f4LXqcGifD364sFBKFfoN"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 204133,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "HKI199638509"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5A4wpjkIzZ8R9v9PxolrSo"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5A4wpjkIzZ8R9v9PxolrSo",
+        "id": "5A4wpjkIzZ8R9v9PxolrSo",
+        "is_local": false,
+        "name": "6 Pezzi, P. 44: No. 1. Valse Caressante",
+        "popularity": 43,
+        "preview_url": "https://p.scdn.co/mp3-preview/9c7fc4959ab175b157401db7d3502f0b951bf835?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:5A4wpjkIzZ8R9v9PxolrSo"
+      },
+      "played_at": "2022-04-28T18:14:04.951Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 128120,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500569"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/63WBfiiuCeGhXfHmzD9xVR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/63WBfiiuCeGhXfHmzD9xVR",
+        "id": "63WBfiiuCeGhXfHmzD9xVR",
+        "is_local": false,
+        "name": "Mazurka",
+        "popularity": 27,
+        "preview_url": "https://p.scdn.co/mp3-preview/b1e31f274621d2c0dd6aec41796d432bb55239a8?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:63WBfiiuCeGhXfHmzD9xVR"
+      },
+      "played_at": "2022-04-28T18:10:40.316Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8JGZYLzNf7zn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8JGZYLzNf7zn",
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8JGZYLzNf7zn"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3NcNY4xIKsMItzdecOxWrB"
+            },
+            "href": "https://api.spotify.com/v1/artists/3NcNY4xIKsMItzdecOxWrB",
+            "id": "3NcNY4xIKsMItzdecOxWrB",
+            "name": "Grażyna Bacewicz",
+            "type": "artist",
+            "uri": "spotify:artist:3NcNY4xIKsMItzdecOxWrB"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 333493,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500560"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7lW90r9wIgSfipHEvdFune"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7lW90r9wIgSfipHEvdFune",
+        "id": "7lW90r9wIgSfipHEvdFune",
+        "is_local": false,
+        "name": "Sonata No. 2: Toccata. Vivo",
+        "popularity": 4,
+        "preview_url": "https://p.scdn.co/mp3-preview/9ba1b43e7e0cc164f2259d9a57cfbb1c84ccf1c0?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:7lW90r9wIgSfipHEvdFune"
+      },
+      "played_at": "2022-04-28T18:05:53.066Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+        "type": "album",
+        "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3NcNY4xIKsMItzdecOxWrB"
+            },
+            "href": "https://api.spotify.com/v1/artists/3NcNY4xIKsMItzdecOxWrB",
+            "id": "3NcNY4xIKsMItzdecOxWrB",
+            "name": "Grażyna Bacewicz",
+            "type": "artist",
+            "uri": "spotify:artist:3NcNY4xIKsMItzdecOxWrB"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 118746,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500559"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0wN6KIy1YiKBxhakcdUfWh"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0wN6KIy1YiKBxhakcdUfWh",
+        "id": "0wN6KIy1YiKBxhakcdUfWh",
+        "is_local": false,
+        "name": "Sonata No. 2: Largo",
+        "popularity": 5,
+        "preview_url": "https://p.scdn.co/mp3-preview/cfdb6e128635bfd8154346fc8b74a06e0f3ed2b3?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:0wN6KIy1YiKBxhakcdUfWh"
+      },
+      "played_at": "2022-04-28T18:00:19.582Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+        "type": "album",
+        "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3NcNY4xIKsMItzdecOxWrB"
+            },
+            "href": "https://api.spotify.com/v1/artists/3NcNY4xIKsMItzdecOxWrB",
+            "id": "3NcNY4xIKsMItzdecOxWrB",
+            "name": "Grażyna Bacewicz",
+            "type": "artist",
+            "uri": "spotify:artist:3NcNY4xIKsMItzdecOxWrB"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 197413,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500558"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4xhA5gTccvewvkh2dtmwL0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4xhA5gTccvewvkh2dtmwL0",
+        "id": "4xhA5gTccvewvkh2dtmwL0",
+        "is_local": false,
+        "name": "Sonata No. 2: Maestoso",
+        "popularity": 5,
+        "preview_url": "https://p.scdn.co/mp3-preview/ed4a19e3fba298aabb7cc8fb7d44f603d55065a2?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:4xhA5gTccvewvkh2dtmwL0"
+      },
+      "played_at": "2022-04-28T17:58:21.355Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+        "type": "album",
+        "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Uff91EOsvd99rtAupatMP"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Uff91EOsvd99rtAupatMP",
+            "id": "1Uff91EOsvd99rtAupatMP",
+            "name": "Claude Debussy",
+            "type": "artist",
+            "uri": "spotify:artist:1Uff91EOsvd99rtAupatMP"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 126080,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500556"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7aNDTUxKbEZMlvgcS25EJn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7aNDTUxKbEZMlvgcS25EJn",
+        "id": "7aNDTUxKbEZMlvgcS25EJn",
+        "is_local": false,
+        "name": "Prélude No. 8 \"La fille aux cheveux de lin\"",
+        "popularity": 18,
+        "preview_url": "https://p.scdn.co/mp3-preview/7af4258caf3c5a9097056db8a5e3653a0c6e5e89?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:7aNDTUxKbEZMlvgcS25EJn"
+      },
+      "played_at": "2022-04-28T17:55:03.646Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+        "type": "album",
+        "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+              },
+              "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+              "id": "0lTe15Ofpyg39nXvLNAfcm",
+              "name": "Władysław Szpilman",
+              "type": "artist",
+              "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+            }
+          ],
+          "available_markets": [],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+          },
+          "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+          "id": "08A1RlwoDGOWGjRyZ17Gsy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734f05cf94447ed3288fd1bc5b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024f05cf94447ed3288fd1bc5b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514f05cf94447ed3288fd1bc5b",
+              "width": 64
+            }
+          ],
+          "name": "Legendary Recordings",
+          "release_date": "2006-02-17",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5hJuoB5gBpZNiiwRh4Ktnz"
+            },
+            "href": "https://api.spotify.com/v1/artists/5hJuoB5gBpZNiiwRh4Ktnz",
+            "id": "5hJuoB5gBpZNiiwRh4Ktnz",
+            "name": "Alfred Grünfeld",
+            "type": "artist",
+            "uri": "spotify:artist:5hJuoB5gBpZNiiwRh4Ktnz"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0lTe15Ofpyg39nXvLNAfcm"
+            },
+            "href": "https://api.spotify.com/v1/artists/0lTe15Ofpyg39nXvLNAfcm",
+            "id": "0lTe15Ofpyg39nXvLNAfcm",
+            "name": "Władysław Szpilman",
+            "type": "artist",
+            "uri": "spotify:artist:0lTe15Ofpyg39nXvLNAfcm"
+          }
+        ],
+        "available_markets": [],
+        "disc_number": 1,
+        "duration_ms": 353066,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "DEE860500555"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6xufMTKWkhM6ApM9eSdFAi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6xufMTKWkhM6ApM9eSdFAi",
+        "id": "6xufMTKWkhM6ApM9eSdFAi",
+        "is_local": false,
+        "name": "Soirée de Vienne, Op. 56",
+        "popularity": 10,
+        "preview_url": "https://p.scdn.co/mp3-preview/7965524bad7cb8bc851aad48e39f3f0178a0fadb?cid=18563b0de811423c9e2e2b9a20909ba4",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6xufMTKWkhM6ApM9eSdFAi"
+      },
+      "played_at": "2022-04-28T17:52:57.840Z",
+      "context": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/08A1RlwoDGOWGjRyZ17Gsy"
+        },
+        "href": "https://api.spotify.com/v1/albums/08A1RlwoDGOWGjRyZ17Gsy",
+        "type": "album",
+        "uri": "spotify:album:08A1RlwoDGOWGjRyZ17Gsy"
+      }
+    }
+  ],
+  "next": "https://api.spotify.com/v1/me/player/recently-played?before=1651168377840",
+  "cursors": {
+    "after": "1651171442914",
+    "before": "1651168377840"
+  },
+  "limit": 20,
+  "href": "https://api.spotify.com/v1/me/player/recently-played"
+}
