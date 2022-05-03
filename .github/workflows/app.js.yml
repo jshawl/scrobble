@@ -22,6 +22,8 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: echo 'cool'
+      - run: git status
+      - run: git config -l
       - run: node app.js
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
