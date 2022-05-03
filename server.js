@@ -40,6 +40,11 @@ const server = http.createServer((req, res) => {
     res.end(`<a href="${authorizationUrl}">Get Spotify Access Token</a>`)
 })
 
-server.listen(port, () => {
-  console.log(`Server running at ${serverUrl}`)
-})
+if(!module.parent){
+  server.listen(port, () => {
+    console.log(`Server running at ${serverUrl}`)
+  })
+} else {
+  module.exports = server
+}
+

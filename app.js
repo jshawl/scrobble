@@ -1,7 +1,10 @@
+const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('./db/db.sqlite3');
+
 const clientId = process.env.SPOTIFY_CLIENT_ID
 const clientSecret = process.env.SPOTIFY_CLIENT_SECRET
 const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN
-const fs = require("fs")
+
 const headers = {
   'Content-Type': 'application/x-www-form-urlencoded',
   'Authorization': "Basic " + Buffer.from(`${clientId}:${clientSecret}`).toString('base64')
@@ -22,7 +25,7 @@ const getAccessToken = async () => {
 }
 
 const getListens = async (at) => {
-  const url = 'https://api.spotify.com/v1/me/player/recently-played'
+  const url = 'https://api.spotify.com/v1/me/player/recently-played?limit=3'
   return fetch(url, {
     method: 'GET',
     headers: {
@@ -34,11 +37,16 @@ const getListens = async (at) => {
 }
 
 getAccessToken().then(d => {
-  console.log('access token', d.access_token)
   getListens(d.access_token).then(listens => {
-    console.log('listens')
-    console.log(listens)
-    fs.writeFileSync("listens.json", JSON.stringify(listens, null, 2))
+    db.serialize(() => {
+      const stmt = db.prepare("INSERT INTO scrobbles (artists, name, played_at, spotify_id) VALUES (?,?,?,?)");
+      listens.items.forEach(item => {
+        const artists = item.track.artists.map(a => a.name).join(", ")
+        stmt.run(artists, item.track.name, item.played_at, item.track.id)
+      })
+      stmt.finalize()
+    })
+    db.close()
   })
 })
 
