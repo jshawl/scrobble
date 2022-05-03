@@ -3,7 +3,9 @@
 
 name: Save Scrobbles
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
 
 jobs:
   build:
