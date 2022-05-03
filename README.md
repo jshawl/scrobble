@@ -24,6 +24,14 @@ env $(cat .env | xargs) node server.js
 
 Complete the oauth flow, then add the `refresh_token` to `.env`
 
+### Add Repository Secrets
+
+The following env vars need to be added to GitHub as [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository):
+
+- `SPOTIFY_CLIENT_ID`
+- `SPOTIFY_CLIENT_SECRET`
+- `SPOTIFY_REFRESH_TOKEN`
+
 ### Run the app
 
 ```
