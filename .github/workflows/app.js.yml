@@ -3,12 +3,26 @@
 
 name: Save Scrobbles
 
-on:
+on: 
   workflow_dispatch:
     inputs:
-      first:
-        description: 'default'
-        default: 1
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning' 
+        type: choice
+        options:
+        - info
+        - warning
+        - debug 
+      tags:
+        description: 'Test scenario tags'
+        required: false 
+        type: boolean
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true 
 
 jobs:
   build:
