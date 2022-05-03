@@ -1,5 +1,6 @@
 const server = require("../server")
 beforeAll(()=>{
+  console.log(process.env)
   server.listen(3000)
 })
 
