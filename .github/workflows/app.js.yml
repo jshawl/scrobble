@@ -6,6 +6,9 @@ name: Save Scrobbles
 on:
   workflow_dispatch:
     inputs:
+      first:
+        description: 'default'
+        default: 1
 
 jobs:
   build:
