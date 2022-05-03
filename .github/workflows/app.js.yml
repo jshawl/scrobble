@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm install
       - run: node app.js
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
