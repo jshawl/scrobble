@@ -1,4 +1,4 @@
-# Scrobble
+# 🎶 Scrobble 🎵
 
 Self-hosted music listening history.
 
