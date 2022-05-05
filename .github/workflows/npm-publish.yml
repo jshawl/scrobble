@@ -17,6 +17,9 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm test
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+
 
   publish-npm:
     needs: build
