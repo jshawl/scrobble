@@ -1,23 +1,27 @@
 {
-  "name": "self-hosted-scrobbles",
-  "version": "0.0.0",
+  "name": "scrobble",
+  "version": "1.2.1",
   "description": "Keep track of your listens",
   "main": "app.js",
-  "private": true,
+  "files": [
+    ".env.example",
+    "app.js",
+    "server.js"
+  ],
   "scripts": {
     "test": "jest",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshawl/self-hosted-scrobbles.git"
+    "url": "git+https://github.com/jshawl/scrobble.git"
   },
   "author": "Jesse Shawl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jshawl/self-hosted-scrobbles/issues"
+    "url": "https://github.com/jshawl/scrobble/issues"
   },
-  "homepage": "https://github.com/jshawl/self-hosted-scrobbles#readme",
+  "homepage": "https://github.com/jshawl/scrobble#readme",
   "devDependencies": {
     "jest": "^28.0.3",
     "prettier": "2.6.2"
