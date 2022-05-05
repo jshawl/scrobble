@@ -8,6 +8,9 @@
     "app.js",
     "server.js"
   ],
+  "bin": {
+    "scrobble": "./bin/scrobble"
+  },
   "scripts": {
     "test": "jest",
     "start": "node server.js"
