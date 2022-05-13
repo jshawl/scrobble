@@ -1,3 +1,22 @@
 #!/usr/bin/env node
 
-console.log('scrobblin!')
+const subcommands = {
+  help: () => {
+    console.log(`
+usage: scrobble [--help] <command>
+
+These are common scrobble commands:
+
+   init              Create a new scrobble db
+    `)
+  },
+  init: () => {
+    require(__dirname + "/../src/init.js")
+  }
+}
+
+if(process.argv[2] in subcommands){
+  subcommands[process.argv[2]]()
+} else {
+  subcommands.help()
+}

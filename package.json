@@ -5,15 +5,17 @@
   "main": "app.js",
   "files": [
     ".env.example",
-    "app.js",
-    "server.js"
+    "src/app.js",
+    "src/server.js",
+    "src/init.js"
   ],
   "bin": {
     "scrobble": "./bin/scrobble"
   },
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",

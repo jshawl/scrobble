@@ -20,7 +20,6 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
 
-
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
