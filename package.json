@@ -4,7 +4,6 @@
   "description": "Keep track of your listens",
   "main": "app.js",
   "files": [
-    ".env.example",
     "src/app.js",
     "src/server.js",
     "src/init.js"

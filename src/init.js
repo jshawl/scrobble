@@ -6,13 +6,6 @@ if (fs.existsSync(process.cwd() + "/db.sqlite3")) {
   process.exit();
 }
 
-if(fs.existsSync(process.cwd() + "/.env")){
-  console.log("refusing to overwrite existing .env file");
-  process.exit();
-}
-
-fs.copyFileSync(__dirname + "/../.env.example", process.cwd() + "/.env")
-
 const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
 
 db.serialize(() => {
@@ -21,4 +14,11 @@ db.serialize(() => {
   );
 });
 
+console.log("  created db.sqlite3")
+
 db.close();
+
+const server = require("./server")
+server.listen(3000, () => {
+  console.log(`Visit http://localhost:3000/ in a browser.`)
+})
