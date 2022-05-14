@@ -46,11 +46,9 @@ const queryStringToObject = (string) =>
 
 const payload = async (req) => {
   const buffers = [];
-
   for await (const chunk of req) {
     buffers.push(chunk);
   }
-
   return Buffer.concat(buffers).toString();
 };
 
@@ -80,7 +78,7 @@ const server = http.createServer(async (req, res) => {
   if (req.url == "/credentials") {
     const data = await payload(req);
     const { client_id, client_secret } = queryStringToObject(data);
-
+    const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
     database((db) => {
       // TODO use upsert instead of multiple inserts
       const stmt = db.prepare(
@@ -89,9 +87,6 @@ const server = http.createServer(async (req, res) => {
       stmt.run(client_id, client_secret);
       stmt.finalize();
     });
-
-    const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
-
     res.writeHead(302, { Location: authorizationUrl });
     res.end();
   }
