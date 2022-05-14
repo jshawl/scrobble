@@ -9,10 +9,10 @@ const sqlite3 = require("sqlite3").verbose();
 const database = async (callback) => {
   const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
   db.serialize(() => {
-    callback(db)
-  })
-  db.close()
-}
+    callback(db);
+  });
+  db.close();
+};
 
 const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
   let url = `https://accounts.spotify.com/api/token`;
@@ -74,7 +74,7 @@ const server = http.createServer(async (req, res) => {
           });
         }
       );
-    })
+    });
   }
 
   if (req.url == "/credentials") {
@@ -82,12 +82,13 @@ const server = http.createServer(async (req, res) => {
     const { client_id, client_secret } = queryStringToObject(data);
 
     database((db) => {
+      // TODO use upsert instead of multiple inserts
       const stmt = db.prepare(
         "INSERT INTO auth (spotify_client_id, spotify_client_secret) VALUES (?,?)"
       );
       stmt.run(client_id, client_secret);
       stmt.finalize();
-    })
+    });
 
     const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
 
