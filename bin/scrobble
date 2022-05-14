@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 
+const {version} = require("../package.json")
+
 const subcommands = {
   help: () => {
     console.log(`
+scrobble v${version}
+
 usage: scrobble [--help] <command>
 
 These are common scrobble commands:
