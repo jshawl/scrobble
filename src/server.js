@@ -1,13 +1,13 @@
 const http = require("http");
-const clientId = process.env.SPOTIFY_CLIENT_ID;
-const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 const scope = "user-read-recently-played";
 const port = process.env.PORT || 3000;
 const serverUrl = `http://localhost:${port}`;
 const redirectUri = `${serverUrl}/callback`;
-const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${clientId}&scope=${scope}&redirect_uri=${redirectUri}`;
+const fs = require('fs')
+const sqlite3 = require("sqlite3").verbose();
 
-const getAccessAndRefreshTokens = async (code) => {
+
+const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
   let url = `https://accounts.spotify.com/api/token`;
   const d = await fetch(url, {
     method: "POST",
@@ -26,24 +26,71 @@ const getAccessAndRefreshTokens = async (code) => {
   return d.json();
 };
 
-const server = http.createServer((req, res) => {
-  if (req.url.match(/callback/)) {
-    const params = req.url
-      .split("?")
-      .pop()
-      .split("&")
-      .reduce((acc, el) => {
-        const [key, value] = el.split("=");
-        acc[key] = value;
-        return acc;
-      }, {});
-    getAccessAndRefreshTokens(params.code).then((d) => {
-      res.end(JSON.stringify(d, null, 2));
-    });
+const queryStringToObject = string => string.split("?")
+  .pop()
+  .split("&")
+  .reduce((acc, el) => {
+    const [key, value] = el.split("=");
+    acc[key] = value;
+    return acc;
+  }, {});
+
+
+const payload = async (req) => {
+  const buffers = [];
+
+  for await (const chunk of req) {
+    buffers.push(chunk);
   }
 
-  if (req.url == "/")
-    res.end(`<a href="${authorizationUrl}">Get Spotify Access Token</a>`);
+  return Buffer.concat(buffers).toString();
+}
+
+const server = http.createServer(async (req, res) => {
+  
+  
+
+
+  if (req.url == "/"){
+    res.end(fs.readFileSync(__dirname + "/index.html", "utf8"))
+  }
+
+  if (req.url.match(/callback/)) {
+    const params = queryStringToObject(req.url)
+    const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
+    db.serialize(() => {
+      db.each("SELECT spotify_client_id, spotify_client_secret FROM auth limit 1", (err, row) => {
+        console.log(row);
+        getAccessAndRefreshTokens(params.code, row.spotify_client_id, row.spotify_client_secret).then((d) => {
+          res.end(JSON.stringify(d, null, 2));
+        });
+      });
+    })
+    db.close()
+  }
+
+  if (req.url == "/credentials"){
+    const data = await payload(req)
+    const {client_id, client_secret} = queryStringToObject(data)
+    const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
+
+    db.serialize(() => {
+      const stmt = db.prepare(
+        "INSERT INTO auth (spotify_client_id, spotify_client_secret) VALUES (?,?)"
+      );
+      stmt.run(client_id, client_secret);
+      stmt.finalize();
+    });
+    
+    db.close();
+
+    const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
+
+    res.writeHead(302, {"Location": authorizationUrl})
+    res.end()
+  }
+
+ 
 });
 
 if (!module.parent) {
