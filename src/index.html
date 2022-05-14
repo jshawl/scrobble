@@ -86,26 +86,28 @@
         <input type="text" name="client_id" />
         <label for="client_secret">Client Secret</label>
         <input type="text" name="client_secret" />
-        <br><br>
-        <button id='login' class="green btn">Log In With Spotify</button>
+        <br /><br />
+        <button id="login" class="green btn">Log In With Spotify</button>
       </form>
     </section>
 
     <script>
-      const config = {}
+      const config = {};
       document.body.addEventListener("keyup", (e) => {
-        if(e.target.tagName == "INPUT"){
-          config[e.target.name] = e.target.value
-          console.log(`https://accounts.spotify.com/authorize?response_type=code&client_id=${config.client_id}&scope=user-read-recently-played&redirect_uri=http://localhost:3000/callback`)
+        if (e.target.tagName == "INPUT") {
+          config[e.target.name] = e.target.value;
+          console.log(
+            `https://accounts.spotify.com/authorize?response_type=code&client_id=${config.client_id}&scope=user-read-recently-played&redirect_uri=http://localhost:3000/callback`
+          );
         }
-      })
+      });
 
-      const login = document.getElementById('login')
+      const login = document.getElementById("login");
       login.addEventListener("click", (e) => {
-        console.log(config)
+        console.log(config);
         // xhr post to save client id and secret to db,
         // then redirect to auth url
-      })
+      });
     </script>
   </body>
 </html>
