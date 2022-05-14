@@ -6,6 +6,14 @@ const redirectUri = `${serverUrl}/callback`;
 const fs = require("fs");
 const sqlite3 = require("sqlite3").verbose();
 
+const database = async (callback) => {
+  const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
+  db.serialize(() => {
+    callback(db)
+  })
+  db.close()
+}
+
 const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
   let url = `https://accounts.spotify.com/api/token`;
   const d = await fetch(url, {
@@ -53,12 +61,10 @@ const server = http.createServer(async (req, res) => {
 
   if (req.url.match(/callback/)) {
     const params = queryStringToObject(req.url);
-    const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
-    db.serialize(() => {
-      db.each(
+    database((db) => {
+      db.get(
         "SELECT spotify_client_id, spotify_client_secret FROM auth limit 1",
-        (err, row) => {
-          console.log(row);
+        (_err, row) => {
           getAccessAndRefreshTokens(
             params.code,
             row.spotify_client_id,
@@ -68,24 +74,20 @@ const server = http.createServer(async (req, res) => {
           });
         }
       );
-    });
-    db.close();
+    })
   }
 
   if (req.url == "/credentials") {
     const data = await payload(req);
     const { client_id, client_secret } = queryStringToObject(data);
-    const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
 
-    db.serialize(() => {
+    database((db) => {
       const stmt = db.prepare(
         "INSERT INTO auth (spotify_client_id, spotify_client_secret) VALUES (?,?)"
       );
       stmt.run(client_id, client_secret);
       stmt.finalize();
-    });
-
-    db.close();
+    })
 
     const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
 
