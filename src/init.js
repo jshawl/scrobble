@@ -6,18 +6,21 @@ if (fs.existsSync(process.cwd() + "/db.sqlite3")) {
   process.exit();
 }
 
-if(fs.existsSync(process.cwd() + "/.env")){
+if (fs.existsSync(process.cwd() + "/.env")) {
   console.log("refusing to overwrite existing .env file");
   process.exit();
 }
 
-fs.copyFileSync(__dirname + "/../.env.example", process.cwd() + "/.env")
+fs.copyFileSync(__dirname + "/../.env.example", process.cwd() + "/.env");
 
 const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
 
 db.serialize(() => {
   db.run(
     "CREATE TABLE IF NOT EXISTS scrobbles (artists TEXT, name TEXT, played_at TEXT, spotify_id TEXT)"
+  );
+  db.run(
+    "CREATE TABLE IF NOT EXISTS auth (spotify_client_id TEXT, spotify_client_secret TEXT, spotify_refresh_token TEXT)"
   );
 });
 

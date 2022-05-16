@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 2em;
+        background: #fcfcfc;
+        color: #333;
+        font-family: sans-serif;
+      }
+
+      section {
+        counter-increment: steps;
+        background: #fff;
+        padding: 2em;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        position: relative;
+      }
+      section h2:before {
+        content: counter(steps);
+        color: #ccc;
+        font-weight: bold;
+        margin-right: 0.5em;
+      }
+      section :first-child {
+        margin-top: 0;
+      }
+      section :last-child {
+        margin-bottom: 0;
+      }
+
+      code {
+        background: #ebebeb;
+        padding: 0.25rem;
+        border-radius: 3px;
+      }
+
+      .btn {
+        padding: 0.5em 1em;
+        border-radius: 1em;
+        font: inherit;
+        border: none;
+      }
+
+      .green {
+        background: #1cb954;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-top: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Scrobble</h1>
+
+    <section>
+      <h2>Create a Spotify Application</h2>
+      <p>
+        Visit
+        <a href="https://developer.spotify.com/dashboard/applications"
+          >Spotify
+        </a>
+        and click "Create an App"
+      </p>
+      <p>Click Edit Settings and add</p>
+      <code>http://localhost:3000/callback</code>
+      <p>as a redirect URI.</p>
+      <p>Click "Show client secret"</p>
+    </section>
+
+    <section>
+      <h2>Set Credentials</h2>
+      <form method="post" action="/credentials">
+        <label for="client_id">Client ID</label>
+        <input type="text" name="client_id" />
+        <label for="client_secret">Client Secret</label>
+        <input type="text" name="client_secret" />
+        <br /><br />
+        <button id="login" class="green btn">Log In With Spotify</button>
+      </form>
+    </section>
+
+    <script>
+      const config = {};
+      document.body.addEventListener("keyup", (e) => {
+        if (e.target.tagName == "INPUT") {
+          config[e.target.name] = e.target.value;
+          console.log(
+            `https://accounts.spotify.com/authorize?response_type=code&client_id=${config.client_id}&scope=user-read-recently-played&redirect_uri=http://localhost:3000/callback`
+          );
+        }
+      });
+
+      const login = document.getElementById("login");
+      login.addEventListener("click", (e) => {
+        console.log(config);
+        // xhr post to save client id and secret to db,
+        // then redirect to auth url
+      });
+    </script>
+  </body>
+</html>
