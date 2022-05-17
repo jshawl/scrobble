@@ -12,10 +12,14 @@ usage: scrobble [--help] <command>
 These are common scrobble commands:
 
    init              Create a new scrobble db
+   track             Track listening history
     `)
   },
   init: () => {
     require(__dirname + "/../src/init.js")
+  },
+  track: () => {
+    require(__dirname + "/../src/track.js")
   }
 }
 
