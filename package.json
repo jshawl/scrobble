@@ -15,10 +15,7 @@
     "start": "node server.js",
     "format": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jshawl/scrobble.git"
-  },
+  "repository": "https://github.com/jshawl/scrobble",
   "author": "Jesse Shawl",
   "license": "ISC",
   "bugs": {
