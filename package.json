@@ -5,9 +5,7 @@
   "main": "app.js",
   "files": [
     ".env.example",
-    "src/app.js",
-    "src/server.js",
-    "src/init.js"
+    "src/*.js"
   ],
   "bin": {
     "scrobble": "./bin/scrobble"
@@ -32,6 +30,7 @@
     "prettier": "2.6.2"
   },
   "dependencies": {
+    "sequelize": "^6.19.0",
     "sqlite3": "^5.0.6"
   }
 }
