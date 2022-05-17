@@ -13,7 +13,3 @@ npx scrobble init
 ```
 npx scrobble track
 ```
-
-## More Documentation
-
-https://developer.spotify.com/documentation/general/guides/authorization/code-flow/
