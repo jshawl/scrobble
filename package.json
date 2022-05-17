@@ -5,9 +5,7 @@
   "main": "app.js",
   "files": [
     ".env.example",
-    "src/app.js",
-    "src/server.js",
-    "src/init.js"
+    "src/*.js"
   ],
   "bin": {
     "scrobble": "./bin/scrobble"

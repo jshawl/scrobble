@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const serverUrl = `http://localhost:${port}`;
 const redirectUri = `${serverUrl}/callback`;
 const fs = require("fs");
-const {Scrobble, KV} = require("./db");
+const {KV} = require("./db");
 
 const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
   let url = `https://accounts.spotify.com/api/token`;
