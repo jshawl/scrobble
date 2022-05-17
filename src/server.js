@@ -4,15 +4,7 @@ const port = process.env.PORT || 3000;
 const serverUrl = `http://localhost:${port}`;
 const redirectUri = `${serverUrl}/callback`;
 const fs = require("fs");
-const sqlite3 = require("sqlite3").verbose();
-
-const database = async (callback) => {
-  const db = new sqlite3.Database(`${process.cwd()}/db.sqlite3`);
-  db.serialize(() => {
-    callback(db);
-  });
-  db.close();
-};
+const {Scrobble, KV} = require("./db");
 
 const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
   let url = `https://accounts.spotify.com/api/token`;
@@ -30,7 +22,7 @@ const getAccessAndRefreshTokens = async (code, clientId, clientSecret) => {
       redirect_uri: redirectUri,
     }),
   });
-  return d.json();
+  return d.json()
 };
 
 const queryStringToObject = (string) =>
@@ -59,34 +51,28 @@ const server = http.createServer(async (req, res) => {
 
   if (req.url.match(/callback/)) {
     const params = queryStringToObject(req.url);
-    database((db) => {
-      db.get(
-        "SELECT spotify_client_id, spotify_client_secret FROM auth limit 1",
-        (_err, row) => {
-          getAccessAndRefreshTokens(
-            params.code,
-            row.spotify_client_id,
-            row.spotify_client_secret
-          ).then((d) => {
-            res.end(JSON.stringify(d, null, 2));
-          });
-        }
-      );
-    });
+    const client_id = await KV.findOne({where: {key: 'spotify_client_id'}})
+    const client_secret = await KV.findOne({where: {key: 'spotify_client_secret'}})
+    getAccessAndRefreshTokens(
+      params.code,
+      client_id.value,
+      client_secret.value
+    ).then(async (data) => {
+      console.log(data)
+      await KV.findOrCreate({where: {
+        key: 'spotify_refresh_token',
+        value: data.refresh_token
+      }})
+      res.end('ok')
+    })
   }
 
   if (req.url == "/credentials") {
     const data = await payload(req);
     const { client_id, client_secret } = queryStringToObject(data);
     const authorizationUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${client_id}&scope=${scope}&redirect_uri=http://localhost:3000/callback`;
-    database((db) => {
-      // TODO use upsert instead of multiple inserts
-      const stmt = db.prepare(
-        "INSERT INTO auth (spotify_client_id, spotify_client_secret) VALUES (?,?)"
-      );
-      stmt.run(client_id, client_secret);
-      stmt.finalize();
-    });
+    await KV.findOrCreate({where: {key: 'spotify_client_id', value: client_id}});
+    await KV.findOrCreate({where: {key: 'spotify_client_secret', value: client_secret}});
     res.writeHead(302, { Location: authorizationUrl });
     res.end();
   }
