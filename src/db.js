@@ -8,7 +8,10 @@ const sequelize = new Sequelize({
 const Scrobble = sequelize.define("Scrobble", {
   artists: DataTypes.STRING,
   name: DataTypes.STRING,
-  played_at: DataTypes.DATE,
+  played_at: {
+    type: DataTypes.DATE,
+    unique: true
+  },
   spotify_id: DataTypes.STRING,
 });
 
@@ -20,6 +23,6 @@ const KV = sequelize.define("KV", {
 module.exports.Scrobble = Scrobble;
 module.exports.KV = KV;
 module.exports.sync = async (cb) => {
-  await sequelize.sync({ force: false });
+  await sequelize.sync({ force: true });
   cb();
 };
