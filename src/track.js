@@ -43,15 +43,15 @@ getAccessToken().then((d) => {
   getListens(d.access_token).then((listens) => {
     listens.items.forEach(async (item) => {
       const artists = item.track.artists.map((a) => a.name).join(", ");
-      try{
+      try {
         await Scrobble.create({
           artists,
           name: item.track.name,
           played_at: item.played_at,
           spotify_id: item.track.id,
         });
-      } catch (e){
-        console.log(`Skipping ${item.track.name}: ${e.message}`)
+      } catch (e) {
+        console.log(`Skipping ${item.track.name}: ${e.message}`);
       }
     });
   });

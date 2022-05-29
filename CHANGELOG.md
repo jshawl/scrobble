@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - setup is self-hosted now. The web UI that processes the oauth callback
-now also prompts the user to input credentials.
+  now also prompts the user to input credentials.
 
 ## [1.4.0] - 2022-05-13
 

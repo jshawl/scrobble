@@ -10,7 +10,7 @@ const Scrobble = sequelize.define("Scrobble", {
   name: DataTypes.STRING,
   played_at: {
     type: DataTypes.DATE,
-    unique: true
+    unique: true,
   },
   spotify_id: DataTypes.STRING,
 });

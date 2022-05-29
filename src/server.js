@@ -67,7 +67,9 @@ const server = http.createServer(async (req, res) => {
           value: data.refresh_token,
         },
       });
-      res.end("ok");
+      res.end(
+        "Success! You can stop the server and move onto `npx scrobble track`"
+      );
     });
   }
 
